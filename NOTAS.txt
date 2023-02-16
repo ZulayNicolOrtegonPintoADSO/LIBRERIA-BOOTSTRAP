@@ -1,0 +1,63 @@
+QUÉ ES BOOTSTRAP-----------------------------------------------------------------
+Libreria de estilos css, creada por twitte, cuya principal caraceristica s dtar a los sitios wb de responsive (el responsive es la aaptación al dispositivo).
+
+CDN------------------------------------------------------------------------------ (Content delivery network) tecnica de distibucion de recursos de internet q se pueden usar facilmmente.
+
+1. poner el link del dns debajop del titulo (en el encabezado)
+
+Bootstrap ve la pantalla como 12 espacios iguales
+
+--------------maneja los siguientes tipos de medidas horizonalmente :------------------
+-sm: small
+-md: medium
+-lg: large
+-xl: extra largo
+
+top= arriba
+botom= abajo
+left=izquierda
+rigth=derecha
+
+--------------Clases (formas de agruopar elmentos para darles estilos)----------
+-container
+(es una clase que permie formar bloques, dejando el cntenido centrado con espacios a la derecha y a la izquierda centrandolos) 
+-row
+(pone los elemenos uno debajo del otro)
+
+- col-md-4
+(col=columna, md medida de pantalla, espacio q ocupa de 1 a 12)
+
+- table
+(permite estilizar las tablas)
+
+-table-striped 
+(interecala la fila de las tablas para darle colores intercalados de tipo claro, oscuro)
+
+-table-dark
+(tabla negra)
+
+-my-3= elemento se divida 3 unidades del elemento con el q esta chocando
+-my= margin en eje y
+
+-btn-secondary
+
+-ms-auto= margen de inicio en automatico (margen a la izquierda)
+
+--------------componentes----------------------------------------------
+Son los controles ya predefinidos listos para usar.
+
+card= tarjetas
+navbar= barra de navegacion
+bg:fondo
+
+navbar.ligth
+bg-light
+
+forms
+
+-------------elemntos de style-----------------------------------
+resize:none; (para que no tenga redimencionamiento)
+.centrado{
+    text-align: center;
+    vertical-align: middle;
+}
